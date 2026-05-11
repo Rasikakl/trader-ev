@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trader Evaluation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Trader Evaluation Form</h1>
+
+<form id="traderForm">
+
+<label>Name</label>
+<input type="text" id="name" required>
+
+<label>Trading Experience</label>
+<select id="experience">
+<option>Beginner</option>
+<option>Intermediate</option>
+<option>Advanced</option>
+</select>
+
+<label>Do you use Stop Loss?</label>
+<select id="stoploss">
+<option>Yes</option>
+<option>No</option>
+</select>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
